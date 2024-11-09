@@ -8,9 +8,15 @@ header{
    
     
 }
+h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    flex-grow: 1;
+}
 .a
 {
-    height:200vh;
+    height:250vh;
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
@@ -30,7 +36,7 @@ header{
 {
     flex:1;
     display:flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
 }
 .box110
@@ -55,6 +61,47 @@ header{
     color: white;
 }
 .box113
+{
+    flex:1;
+    
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.box21
+{
+
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.box210
+{
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    max-width: 170px;
+    max-height: 170px;
+    padding: 10px;
+
+}
+.box211
+{
+   
+    border: 4px solid blue;
+    border-radius: 10%;
+    min-width: 170px;
+    min-height: 170px;
+}
+.box212
 {
     flex:1;
     
