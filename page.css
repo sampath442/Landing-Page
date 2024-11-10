@@ -144,13 +144,72 @@ h1{
 {
     background-color: #E5E7EB;
     flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+.box31
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width:800px;
+    gap:20px;
+   
+}
+.box311
+{
+    font-size: 36px;
+    color:#1F2937;
+    font-family: light "italic";
+}
+.box312
+{
+    font-weight: 700;
+    align-self: flex-end;
+    font-size: 24px;
 }
 .box4
 {
     background-color: white;
     flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.box41
+{
+    background-color: #3882F6;
+    border-radius: 2%;
+    min-width:950px;
+    min-height: 150px;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box411
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 2;
+}
+.box4111
+{
+    font-weight: 700;
+}
+.box412
+{
+    border:2px white;
+    border-radius: 10%;
+    color: white;
+}
 .b
 {
     font-size: 24px;
